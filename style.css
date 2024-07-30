@@ -1,0 +1,86 @@
+
+
+.img-responsive{
+    max-width: 100%;
+}
+/*navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #e983be;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #d657a1;
+  }
+  
+  .active {
+    background-color: #df42a0;
+  }
+
+.perfume{
+    background: url(perfumebottle.jpeg) no-repeat;
+    height: 100vh;
+    background-size: cover ;
+    position: relative;
+}
+.perfume_wrapper{
+    color: black;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: URW Chancery L, cursive;
+}
+.perfume_wrapper h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form_code .post_code{
+    display: block;
+    margin-right:auto  ;
+    margin-left: auto;
+    width: 30%;
+    padding: .3rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+}
+
+/*Products section */
+.products{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3rem;
+}
+.perfume_lists{
+    float: left;
+	width: 32%;
+	margin-left: 1rem;
+}
+.perfume_list:first-of-type {
+	margin-left: 0;
+}
+@media screen and (max-width: 700px) {
+	.perfume__list { 
+		width: 100%;
+		float: none;
+	}
+}
